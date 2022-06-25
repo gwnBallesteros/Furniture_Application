@@ -100,12 +100,12 @@ Partial Class frmFurnitureApplication
         '
         'lblTax
         '
-        Me.lblTax.AutoSize = True
         Me.lblTax.BackColor = System.Drawing.Color.White
+        Me.lblTax.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblTax.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTax.Location = New System.Drawing.Point(218, 75)
         Me.lblTax.Name = "lblTax"
-        Me.lblTax.Size = New System.Drawing.Size(76, 25)
+        Me.lblTax.Size = New System.Drawing.Size(105, 25)
         Me.lblTax.TabIndex = 6
         Me.lblTax.Text = "$100.00"
         '
@@ -131,12 +131,12 @@ Partial Class frmFurnitureApplication
         '
         'lblTotal
         '
-        Me.lblTotal.AutoSize = True
         Me.lblTotal.BackColor = System.Drawing.Color.White
+        Me.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblTotal.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTotal.Location = New System.Drawing.Point(218, 127)
         Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(90, 25)
+        Me.lblTotal.Size = New System.Drawing.Size(105, 25)
         Me.lblTotal.TabIndex = 9
         Me.lblTotal.Text = "$1,000.00"
         '
@@ -202,6 +202,7 @@ Partial Class frmFurnitureApplication
         Me.Controls.Add(Me.lblHeading)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.picFurniture)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmFurnitureApplication"
         Me.Text = "Furniture Application"
