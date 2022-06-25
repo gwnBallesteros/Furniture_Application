@@ -83,9 +83,9 @@ Partial Class frmFurnitureApplication
         'TxtSales
         '
         Me.TxtSales.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtSales.Location = New System.Drawing.Point(223, 26)
+        Me.TxtSales.Location = New System.Drawing.Point(218, 22)
         Me.TxtSales.Name = "TxtSales"
-        Me.TxtSales.Size = New System.Drawing.Size(100, 31)
+        Me.TxtSales.Size = New System.Drawing.Size(105, 31)
         Me.TxtSales.TabIndex = 4
         '
         'lblSalesTax

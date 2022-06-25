@@ -40,4 +40,8 @@ Public Class frmFurnitureApplication
         lblTotal.Text = ""
         TxtSales.Focus()
     End Sub
+
+    Private Sub TxtSales_TextChanged(sender As Object, e As EventArgs) Handles TxtSales.TextChanged
+
+    End Sub
 End Class
